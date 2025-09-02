@@ -27,36 +27,29 @@ O projeto segue a estrutura padrão de uma aplicação Spring Boot:
 API-MVC/
 ├── src/
 │   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── API/
-│   │   │               └── MVC/
-│   │   │                   ├── ApiMvcApplication.java    # Classe principal da aplicação
-│   │   │                   ├── controller/             # Controladores REST
-│   │   │                   │   └── TarefaController.java
-│   │   │                   ├── dto/                    # Data Transfer Objects (DTOs)
-│   │   │                   │   ├── TarefaDTO.java
-│   │   │                   │   └── TarefaRequestDTO.java
-│   │   │                   ├── mapper/                 # Mapeadores entre DTOs e Entidades
-│   │   │                   │   └── TarefaMapper.java
-│   │   │                   ├── model/                  # Modelos de dados e enums
-│   │   │                   │   ├── Tarefa.java
-│   │   │                   │   └── enums/
-│   │   │                   │       ├── Prioridade.java
-│   │   │                   │       └── Status.java
-│   │   │                   └── repository/             # Repositórios JPA
-│   │   │                       └── TarefaRepository.java
-│   │   └── resources/
-│   │       └── application.properties  # Configurações da aplicação
-│   └── test/
-│       └── java/
-│           └── com/
-│               └── example/
-│                   └── API/
-│                       └── MVC/
-│                           └── ApiMvcApplicationTests.java # Testes da aplicação
-├── pom.xml                               # Arquivo de configuração do Maven
+│     ├── java/
+│     │   └── com/
+│     │       └── example/
+│     │           └── API/
+│     │               └── MVC/
+│     │                   ├── ApiMvcApplication.java    # Classe principal da aplicação
+│     │                   ├── controller/             # Controladores REST
+│     │                   │   └── TarefaController.java
+│     │                   ├── dto/                    # Data Transfer Objects (DTOs)
+│     │                   │   ├── TarefaDTO.java
+│     │                   │   └── TarefaRequestDTO.java
+│     │                   ├── mapper/                 # Mapeadores entre DTOs e Entidades
+│     │                   │   └── TarefaMapper.java
+│     │                   ├── model/                  # Modelos de dados e enums
+│     │                   │   ├── Tarefa.java
+│     │                   │   └── enums/
+│     │                   │       ├── Prioridade.java
+│     │                   │       └── Status.java
+│     │                   └── repository/             # Repositórios JPA
+│     │                       └── TarefaRepository.java
+│     └── resources/
+│          └── application.properties  # Configurações da aplicação
+│  
 └── HELP.md
 ```
 
