@@ -50,7 +50,7 @@ API-MVC/
 │     └── resources/
 │          └── application.properties  # Configurações da aplicação
 │  
-└── HELP.md
+└── README.md
 ```
 
 ## Como Executar o Projeto
